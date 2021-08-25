@@ -103,7 +103,29 @@ nav {
   #book-today {
       color: #05A66B;
       font-size: 0.7em;
+      text-decoration: none;
   }
   #book-today:hover {
       color: #02734A;
   }
+  footer {
+      background-color: #fff;
+      text-align: center;
+      margin-top: 10vh !important;
+  }
+  footer ul {
+      list-style: none;
+  }
+  footer a {
+      text-decoration: none;
+      color:#05A66B;
+  }
+  footer a:hover {
+      color: #02734A;
+  }
+body {
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif
+} 
+@media screen {
+    
+}
