@@ -11,7 +11,7 @@
 
     <body>
         <div class="container-fluid">
-            <nav class="navbar navbar-expand-lg navbar-light bg-light">
+            <nav class="navbar fixed-top navbar-expand-lg navbar-light">
                 <div class="container-fluid">
                   <a class="navbar-brand" href="#"><img src="images/iceland-icon.png" alt="Iceland Icon"></a>
                   <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
@@ -23,7 +23,7 @@
                             <a class="nav-link" href="#about-section">About</a>
                           </li>
                       <li class="nav-item">
-                        <a class="nav-link" href="#">Attractions</a>
+                        <a class="nav-link" href="#attractions-section">Attractions</a>
                       </li>
                       <li class="nav-item dropdown">
                         <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
@@ -33,8 +33,8 @@
                           <li><a class="dropdown-item" href="https://semnurka.com/487assignment2/">Semanur</a></li>
                           <li><a class="dropdown-item" href="http://thisisnoel.co/traveling">Noel</a></li>
                           <li><a class="dropdown-item" href="https://somallinson.com/mejo487/travel">Sophie</a></li>
-                          <li><a class="dropdown-item" href="#">classmate 4</a></li>
-                          <li><a class="dropdown-item" href="#">classmate 5</a></li>
+                          <li><a class="dropdown-item" href="https://benzahavi.com/mejo487/travelsite/">Ben</a></li>
+                          <li><a class="dropdown-item" href="http://rileybergamasco.com/mejo487/a2-travel">Riley</a></li>
                         </ul>
                       </li>
                     </ul>
@@ -49,16 +49,16 @@
               <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
                 <div class="carousel-inner">
                   <div class="carousel-item active">
-                    <img src="images/landscape.jpg" class="d-block w-100" alt="Icelandic Landscape">
+                    <img src="images/carousel-waterfall.jpg" class="d-block w-100" alt="Icelandic Landscape">
                   </div>
                   <div class="carousel-item">
-                    <img src="images/glaciers.jpg" class="d-block w-100" alt="Glaciers">
+                    <img src="images/carousel-glaciers.jpg" class="d-block w-100" alt="Glaciers">
                   </div>
                   <div class="carousel-item">
-                    <img src="images/flowers.jpg" class="d-block w-100" alt="Icelandic Flowers">
+                    <img src="images/carousel-horses.jpg" class="d-block w-100" alt="Icelandic Flowers">
                   </div>
                   <div class="carousel-item">
-                    <img src="images/waterfall.jpg" class="d-block w-100" alt="Waterfall">
+                    <img src="images/carousel-landscape.jpg" class="d-block w-100" alt="Waterfall">
                   </div>
                 </div>
                 <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
@@ -70,16 +70,17 @@
                   <span class="visually-hidden">Next</span>
                 </button>
               </div>
-              <div class="jumbotron jumbotron-fluid bg-light">
-                <div class="container">
+              <div class="jumbotron jumbotron-fluid">
+                <div class="container-fluid">
                   <h1 class="display-4">Welcome to Iceland</h1>
-                  <h2 class="lead">The Land of Fire and Ice</h2>
-                  <button type="button" class="btn btn-primary btn-lg">Learn More</button>
+                  <h2 class="lead"><i>The Land of Fire and Ice</i></h2>
+                  <button id="jumbo-button" type="button" class="btn btn-primary btn-lg">Learn More</button>
                 </div>
               </div>
               </div>
-              <div class="container" id="about-section">
+              <div class="container-fluid" id="about-section">
                   <h1>About Iceland</h1>
+                <div class="container about-text">
                   <div class="row justify-content-start">
                       <div class="col-lg-6 col-md-12">
                   <iframe width="560" height="315" src="https://www.youtube.com/embed/XPGEGEBb6PE" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
@@ -88,37 +89,43 @@
                   <p>Iceland is a Nordic island country in the North Atlantic Ocean and the most sparsely populated country in Europe. The capital and largest city is Reykjavík. Reykjavík and the surrounding areas in the southwest of the country are home to over two-thirds of the population. Iceland is the only part of the Mid-Atlantic Ridge that rises above sea-level, and its central volcanic plateau is erupting almost constantly. The interior consists of a plateau characterised by sand and lava fields, mountains, and glaciers, and many glacial rivers flow to the sea through the lowlands. Iceland is warmed by the Gulf Stream and has a temperate climate, despite a high latitude just outside the Arctic Circle. Its high latitude and marine influence keep summers chilly, and most of its islands have a polar climate.</p>
                 </div>
                 </div>
+                <div class="second row justify-content-start">
+                <p>Services provided to foreign tourists were for a long time an insignificant part of the Icelandic economy, rarely contributing more than 2 percent to GDP, even long after the advent of international air travel. Until the early 1980s, the number of foreign visitors to Iceland increased slowly and erratically, never exceeding 80,000 in a single year, and for many years after that only barely kept pace with the increase in the number of Icelanders traveling to and from the country. This situation lasted until the turn of the century, when the annual number of visitors exceeded the total resident population for the first time, at around 300,000.
+
+                    A few years later the Icelandic tourism industry started to experience a boom which to this day shows no signs of abating, as witnessed by the fact that the number of foreign visitors grew on average by 6 percent per year between 2003 and 2010, and by some 20 percent per year on average between 2010 and 2014. In 2015, this rapid increase has continued, with the number of foreign visitors already exceeding 1 million in the period January to October. According to the Icelandic Tourist Board, the total number of overnight stays by foreign visitors to Iceland grew from 595,000 in 2000 to 2.1 million in 2010, before rising to 4.4 million in 2014.</p>
+                </div>
+                </div>
                 </div>
               <div class="container-fluid" id="attractions-section">
                   <h1>Popular Icelandic Attractions</h1>
                   <div class="row justify-content-start">
                     <div class="col-lg-3 col-md-4 col-sm-12">
                         <div class="card">
-                            <img class="card-img-top" src="images/whale-watching.jpg" alt="Card image cap">
+                            <img class="card-img-top" src="images/whale-watching.jpg" alt="Whale Watching">
                             <div class="card-body">
-                              <h5 class="card-title">Card title</h5>
-                              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                              <a href="#" class="btn btn-primary">Learn More</a>
+                              <h5 class="card-title">Whale Watching - Husavik</h5>
+                              <p class="card-text">Experience the Original Husavik Whale Watching tour that has built a reputation for the town of Husavik as the Whale Watching Capital of Iceland.</p>
+                              <a href="https://www.northsailing.is/tour/husavik-original-whale-watching/" class="btn btn-primary">Learn More</a>
                             </div>
                           </div>
                     </div>
                     <div class="col-lg-3 col-md-4 col-sm-12">
                         <div class="card">
-                            <img class="card-img-top" src="images/northern-lights.jpg" alt="Card image cap">
+                            <img class="card-img-top" src="images/northern-lights.jpg" alt="Northern Lights">
                             <div class="card-body">
-                              <h5 class="card-title">Card title</h5>
-                              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                              <a href="#" class="btn btn-primary">Learn More</a>
+                              <h5 class="card-title">Northern Lights</h5>
+                              <p class="card-text">Iceland is one of the best places in the world to see the aurora borealis, or northern lights. Here, at 65° N on the southern edge of the Arctic Circle, you can see auroras almost every night.</p>
+                              <a href="https://www.travelandleisure.com/trip-ideas/nature-travel/iceland-when-to-see-northern-lights#:~:text=Iceland%20is%20one%20of%20the,other%20viewing%20locations%20in%20Scandinavia)." class="btn btn-primary">Learn More</a>
                             </div>
                           </div>
                     </div>
                     <div class="col-lg-3 col-md-4 col-sm-12">
                         <div class="card">
-                            <img class="card-img-top" src="images/ice-caves.jpg" alt="Card image cap">
+                            <img class="card-img-top" src="images/ice-caves.jpg" alt="Ice Caves">
                             <div class="card-body">
-                              <h5 class="card-title">Card title</h5>
-                              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                              <a href="#" class="btn btn-primary">Learn More</a>
+                              <h5 class="card-title">Ice Caves - Vatnajökull</h5>
+                              <p class="card-text">Vatnajökull Region is a great place to visit one of Iceland’s natural wonders; the ice caves. The ice caves form during the winter months in the outlet glaciers of Vatnajökull, one of the biggest glaciers in Europe by volume.</p>
+                              <a href="https://visitvatnajokull.is/ice-caves-in-vatnajokull/" class="btn btn-primary">Learn More</a>
                             </div>
                           </div>
                     </div>
@@ -126,14 +133,14 @@
                         <div class="card">
                             <img class="card-img-top" src="images/blue-lagoon.jpg" alt="Card image cap">
                             <div class="card-body">
-                              <h5 class="card-title">Card title</h5>
-                              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                              <a href="#" class="btn btn-primary">Learn More</a>
+                              <h5 class="card-title">Blue Lagoon - Grindavík</h5>
+                              <p class="card-text">Experience the tranquility of our unique, geothermal seawater. Stay at our hotels designed for serenity and complete relaxation.</p>
+                              <a href="https://www.bluelagoon.com/" class="btn btn-primary">Learn More</a>
                             </div>
                           </div>
                     </div>
                   </div>
-                  
+                  <a id="book-today" href="https://visiticeland.com/"><h1 id="book">Book Your Visit Today!</h1></a>
               </div>
         </div>
         <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-U1DAWAznBHeqEIlVSCgzq+c9gqGAJn5c/t99JyeKa9xxaYpSvHU5awsuZVVFIhvj" crossorigin="anonymous"></script>
